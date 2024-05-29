@@ -69,16 +69,38 @@
 
         <div class = "container-fluid text-center bg3" id="me3">
             <h1>My hobbies</h1>
-            
-            <h2>Sports</h2>
-            <p>Badminton</p>
-            <p>Swimming</p>
-            <p>Dance</p>
-            <h2>Coding</h2>
-            <p>Python</p>
-            <p>JavaScript</p>
-            <p>HTML</p>
-
+     
             </div>
+
+        <div id="mycarousel" class="carousel slide" data-ride="carousel">
+
+            <ul class="carousel-indicators">
+                <li data-target="mycarousel" data-slide-to="0"></li>
+                <li data-target="mycarousel" data-slide-to="1" class="active"></li>
+                <li data-target="mycarousel" data-slide-to="2"></li>
+            </ul>
+
+            <div class="carousel-item">
+                <img alt="coding" src="codingimg.avif">
+            </div>
+            <div class="carousel-item active">
+                <img alt="dancing" src="image0 (2).jpeg">
+            </div>
+            <div class="carousel-item">
+                <img alt="badminton" src="badmintonimg.jpeg">
+            </div>
+
+            <a href="#mycarousel" data-slide="prev" class="carousel-control-prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#mycarousel" data-slide="next" class="carousel-control-next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+
+
+        </div>
+
+
+
     </body>
 </html>
